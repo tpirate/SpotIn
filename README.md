@@ -40,6 +40,8 @@ Go to [here] and copy your oAuth.
 url="https://api.spotify.com/v1/me/player/currently-playing"
 ```
 Paste your token to line 10.
+Press 'ctrl + o' to save.
+Press 'ctrl + x' to finish.
 Run command:
 ```sh
 $ python3 setup.py
