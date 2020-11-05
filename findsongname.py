@@ -1,15 +1,15 @@
 
-# imports
+# Imports
 import requests
 import json
 import spotipy
-# headers
+# Headers
 headers={
 	'Accept': 'application/json',
 	'Content-Type': 'application/json',
 	'Authorization': 'Bearer !!! paste your auth token here !!!' 
 }
-# url
+# Url
 url="https://api.spotify.com/v1/me/player/currently-playing"
 try:
 	response = requests.get(url, headers=headers)
@@ -29,7 +29,7 @@ try:
 	print(f"{artistname} {songname}")
 	file = open("searcharg.txt", "w")
 	file.write(f"{artistname} {songname} lyrics genius")
-# error handling
+# Error Handling
 
 except requests.exceptions.HTTPError as errh:
     print ("Http Error:",errh)
