@@ -1,3 +1,5 @@
+![Discord](https://img.shields.io/discord/753170304846790686)
+
 # spotIn
 
 
