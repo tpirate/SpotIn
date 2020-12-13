@@ -1,5 +1,4 @@
 import requests as req
-from bs4 import BeautifulSoup
 import re
 
 file = open("searcharg.txt", "r")
