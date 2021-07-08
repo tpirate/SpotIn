@@ -9,7 +9,7 @@
 Welcome to spotIn is a open source ubuntu spotify app. It detects which song you are listening to and opens it's lyrics in 
 your local terminal.
 ----
-> Disclaimer: There might be little bugs. Its on beta for now
+> Disclaimer: I quitted this project and will improve it later. So if you want to use it you might want to tweak it a little or try finding something else
 ----
 # Prerequisites
 * Python 3.8 or above
